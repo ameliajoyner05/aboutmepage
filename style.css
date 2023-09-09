@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading {
+    text-align: center;
+    background-color: #F5DDDD;
+    margin-left: -1%;
+}
+.heading > h1 {
+    margin-top: -1%;
+}
+.heading > h1, .heading > h2 {
+    color: black;
+}
+.page-title {
+    font-size: 30px;
+}
+h1, h2 {
+    color: #534E56;
+    font-size: 28px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: -0.4%;
+}
+svg {
+    overflow: hidden;
+    margin-left: -1%;
+}
+.svg-wave-photo {
+    margin-bottom: -1%;
+}
+.my-photo {
+    background-color: #C2B2B4;
+    margin-left: -1%;
+    padding-left: 15%;
+}
+.bio-sec-1 {
+    background-color: #C2B2B4;
+    margin-right: -1.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+}
+.bio-sec-1 > h2 {
+    padding-bottom: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+.bio-sec-1 > h1, .bio-sec-1 > h2 {
+    color: white;
+}
+.bio-sec-2 {
+    background-color: #53687E;
+    margin-left: -1%;
+}
+.bio-sec-3 {
+    background-color: #6B4E71;
+    margin-left: -1%;
+}
+.bio-sec-4 {
+    background-color: #53687E;
+    margin-left: -1%;
+}
+.bio-sec-5 {
+    background-color: #F5DDDD;
+    margin-left: -1%;
+    margin-bottom: -1%;
+}
+img {
+    margin: 0;
+}
+ul {
+    margin: 0;
+}
+.page-title {
+    padding-top: 2.5%;
+    text-decoration: underline;
+}
+.heading > h2 {
+    font-size: 18px;
+    padding-top: 2.5%;
+}
+.bio-sec-4 > h1, .bio-sec-4 > ul > li, .bio-sec-3 > h1, .bio-sec-3 > ul > li, .bio-sec-2 > h1, .bio-sec-2 > ul > li {
+    color: white;
+}
+.my-photo > img {
+    width: 35%;
+    max-width: 45%;
+    border-radius: 50%;
+    margin-top: -1%;
+}
+span {
+    background-color: #C2B2B4;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%
+}
+.bio-sec-4 > ul {
+    display: flex;
+    flex-direction: column;
+}
+.bio-sec-4 > ul > li {
+    margin-top: 1.25%;
+    margin-bottom: 1.25%;
+}
+span > a {
+    text-decoration: none;
+    color: black;
+}
+span:hover {
+    transition: 0.35s;
+    background-color: #ebe1e2;
+}
+.bio-sec-5 > ul {
+    padding-bottom: 2.5%;
+}
+.bio-sec-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.my-photo, .bio-sec-1 {
+    display: flex;
+    flex-direction: column;
+    width: 42.5%;
+    justify-content: space-between;
+}
